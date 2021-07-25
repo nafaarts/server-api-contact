@@ -1,0 +1,29 @@
+{
+  "name": "server-node-js-contact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nafaarts/server-api-contact.git"
+  },
+  "author": "Naufal Alfadhil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nafaarts/server-api-contact/issues"
+  },
+  "homepage": "https://github.com/nafaarts/server-api-contact#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.12",
+    "request": "^2.88.2"
+  }
+}

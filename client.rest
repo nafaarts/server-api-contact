@@ -1,0 +1,18 @@
+POST http://localhost:5000/contact
+Content-Type: application/json
+
+{
+    "name": "Daffaq",
+    "email": "daffaq43@gmail.com",
+    "subject": "I Love Your Websites",
+    "message": "you have a good taste about design.."
+}
+
+###
+
+POST  http://localhost:5000/testCaptcha
+Content-Type: application/json
+
+{
+    "captcha": "asdalskdjlaksd"
+}
